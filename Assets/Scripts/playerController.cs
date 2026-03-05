@@ -5,7 +5,7 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 15f;
     public float turnSpeed = 10f;
-    public float xRange = 5f;
+    public float xRange = 30f;
 
     private PlayerInput playerInput; 
     private InputAction moveAction;
@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            Debug.LogError("หา Input Actions ไม่เจอ! อย่าลืมเช็คในหน้าต่าง Input System นะครับ");
+            Debug.LogError("error");
         }
     }
 
